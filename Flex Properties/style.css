@@ -1,0 +1,293 @@
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.item {
+  height: 82px;
+  width: 82px;
+  border: 2px solid black;
+  margin: 4px;
+  background-color: blueviolet;
+}
+
+.items {
+  height: 82px;
+  width: 82px;
+  border: 2px solid black;
+  background-color: gold;
+}
+
+.container1 {
+  margin-top: 20px;
+  border: 2px solid rgb(237, 5, 214);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 30vh;
+}
+
+.container2 {
+  margin-top: 20px;
+  border: 2px solid rgb(237, 5, 5);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 30vh;
+}
+
+.container3 {
+  margin-top: 20px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+
+.container4 {
+  margin-top: 20px;
+  border: 2px solid orangered;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 30vh;
+}
+
+.container5 {
+  margin-top: 20px;
+  border: 2px solid olive;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30vh;
+}
+
+.container6 {
+  margin-top: 20px;
+  border: 2px solid palevioletred;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30vh;
+}
+
+.container7 {
+  margin-top: 20px;
+  border: 2px solid royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.container8 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  height: 80vh;
+}
+
+.container9 {
+  margin-top: 20px;
+  border: 2px solid brown;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container10 {
+  margin-top: 20px;
+  border: 2px solid brown;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.container11 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.container12 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.container13 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  align-content: start;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.container14 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  align-content: end;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.container15 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  align-content: end;
+  flex-wrap: wrap-reverse;
+  height: 50vh;
+}
+
+.container16 {
+  margin-top: 20px;
+  border: 2px solid gold;
+  display: flex;
+  align-content: end;
+  flex-wrap: nowrap;
+  height: 40vh;
+}
+
+.container17 {
+  margin-top: 20px;
+  border: 2px solid red;
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-flow: row wrap-reverse;
+  height: 40vh;
+}
+
+.container18 {
+  margin-top: 20px;
+  border: 2px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  height: 40vh;
+}
+
+.container19 {
+  margin-top: 20px;
+  border: 2px solid blue;
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  height: 40vh;
+  gap: 30px;
+}
+
+.container20 {
+  margin-top: 20px;
+  border: 2px solid blue;
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  height: 40vh;
+  row-gap: 40px;
+}
+
+.container21 {
+  margin-top: 20px;
+  border: 2px solid blue;
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  height: 40vh;
+  column-gap: 40px;
+}
+
+.container22 {
+  margin-top: 20px;
+  border: 2px solid blue;
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  height: 40vh;
+  /* column-gap: 10px; */
+  /* row-gap: 50px; */
+  gap: 50px 10px;
+}
+
+.container23 {
+  margin-top: 20px;
+  border: 2px solid orangered;
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+  height: 40vh;
+}
+
+/* order ka use krke ham items ko shift kr skte hai  */
+
+.order-1 {
+  order: 5;
+}
+
+.order-2 {
+  order: 100;
+}
+
+.order-3 {
+  order: 3;
+}
+
+/* Flex grow property  */
+
+.container24 {
+  margin-top: 20px;
+  border: 2px solid green;
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+  height: 40vh;
+}
+
+.itemss {
+  flex-grow: 1;
+  height: 82px;
+  width: 82px;
+  border: 2px solid black;
+  margin: 4px;
+  background-color: red;
+}
+
+.item1 {
+  flex-grow: 5;
+}
+
+.item5 {
+  flex-grow: 20;
+}
+
+.item3 {
+  flex-shrink: 6;
+}
